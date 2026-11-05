@@ -1,4 +1,4 @@
-# College Library Management System
+# Library Management System
 
 A simple college-level Library Management System built with:
 

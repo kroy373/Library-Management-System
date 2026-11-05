@@ -1,0 +1,79 @@
+[
+    {
+        "book_id": "B003",
+        "student_id": "S001",
+        "issue_date": "2026-10-08",
+        "return_date": null,
+        "fine": 0
+    },
+    {
+        "book_id": "B005",
+        "student_id": "S001",
+        "issue_date": "2026-10-08",
+        "return_date": null,
+        "fine": 0
+    },
+    {
+        "book_id": "B002",
+        "student_id": "S002",
+        "issue_date": "2026-10-09",
+        "return_date": null,
+        "fine": 0
+    },
+    {
+        "book_id": "B006",
+        "student_id": "S002",
+        "issue_date": "2026-10-09",
+        "return_date": null,
+        "fine": 0
+    },
+    {
+        "book_id": "B014",
+        "student_id": "S001",
+        "issue_date": "2026-10-09",
+        "return_date": null,
+        "fine": 0
+    },
+    {
+        "book_id": "B003",
+        "student_id": "S009",
+        "issue_date": "2026-11-05",
+        "return_date": "2026-11-05",
+        "fine": 0
+    },
+    {
+        "book_id": "B019",
+        "student_id": "S014",
+        "issue_date": "2026-11-05",
+        "return_date": "2026-11-05",
+        "fine": 0
+    },
+    {
+        "book_id": "B021",
+        "student_id": "S012",
+        "issue_date": "2026-11-05",
+        "return_date": null,
+        "fine": 0
+    },
+    {
+        "book_id": "B004",
+        "student_id": "S017",
+        "issue_date": "2026-11-05",
+        "return_date": "2026-11-05",
+        "fine": 0
+    },
+    {
+        "book_id": "B001",
+        "student_id": "S029",
+        "issue_date": "2026-11-05",
+        "return_date": null,
+        "fine": 0
+    },
+    {
+        "book_id": "B038",
+        "student_id": "S046",
+        "issue_date": "2026-11-05",
+        "return_date": null,
+        "fine": 0
+    }
+]

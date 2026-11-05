@@ -1,0 +1,320 @@
+[
+    {
+        "student_id": "S001",
+        "name": "Aarav Sharma",
+        "email": "aarav01@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S002",
+        "name": "Priya Das",
+        "email": "priya02@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S003",
+        "name": "Rohan Mukherjee",
+        "email": "rohan03@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S004",
+        "name": "Ananya Singh",
+        "email": "ananya04@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S005",
+        "name": "Ishaan Gupta",
+        "email": "ishaan05@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S006",
+        "name": "Sneha Roy",
+        "email": "sneha06@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S007",
+        "name": "Arjun Patel",
+        "email": "arjun07@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S008",
+        "name": "Diya Chatterjee",
+        "email": "diya08@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S009",
+        "name": "Vivaan Kumar",
+        "email": "vivaan09@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S010",
+        "name": "Aditi Banerjee",
+        "email": "aditi10@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S011",
+        "name": "Aditya Verma",
+        "email": "aditya11@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S012",
+        "name": "Kavya Iyer",
+        "email": "kavya12@example.com",
+        "issued_books": [
+            "B021"
+        ]
+    },
+    {
+        "student_id": "S013",
+        "name": "Reyansh Mehta",
+        "email": "reyansh13@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S014",
+        "name": "Ira Bose",
+        "email": "ira14@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S015",
+        "name": "Krishna Nair",
+        "email": "krishna15@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S016",
+        "name": "Meera Joshi",
+        "email": "meera16@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S017",
+        "name": "Atharv Mishra",
+        "email": "atharv17@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S018",
+        "name": "Riya Sen",
+        "email": "riya18@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S019",
+        "name": "Kabir Malhotra",
+        "email": "kabir19@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S020",
+        "name": "Saanvi Kapoor",
+        "email": "saanvi20@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S021",
+        "name": "Dhruv Agarwal",
+        "email": "dhruv21@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S022",
+        "name": "Myra Ghosh",
+        "email": "myra22@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S023",
+        "name": "Ayaan Khan",
+        "email": "ayaan23@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S024",
+        "name": "Anika Saha",
+        "email": "anika24@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S025",
+        "name": "Shaurya Reddy",
+        "email": "shaurya25@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S026",
+        "name": "Pari Dutta",
+        "email": "pari26@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S027",
+        "name": "Devansh Jain",
+        "email": "devansh27@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S028",
+        "name": "Tara Dasgupta",
+        "email": "tara28@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S029",
+        "name": "Neil Fernandes",
+        "email": "neil29@example.com",
+        "issued_books": [
+            "B001"
+        ]
+    },
+    {
+        "student_id": "S030",
+        "name": "Ishita Paul",
+        "email": "ishita30@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S031",
+        "name": "Om Prakash",
+        "email": "om31@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S032",
+        "name": "Nisha Yadav",
+        "email": "nisha32@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S033",
+        "name": "Yash Thakur",
+        "email": "yash33@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S034",
+        "name": "Pooja Mondal",
+        "email": "pooja34@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S035",
+        "name": "Siddharth Rao",
+        "email": "siddharth35@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S036",
+        "name": "Tanvi Kulkarni",
+        "email": "tanvi36@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S037",
+        "name": "Manav Bhatia",
+        "email": "manav37@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S038",
+        "name": "Sohini Mitra",
+        "email": "sohini38@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S039",
+        "name": "Rahul Choudhary",
+        "email": "rahul39@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S040",
+        "name": "Simran Kaur",
+        "email": "simran40@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S041",
+        "name": "Kunal Shah",
+        "email": "kunal41@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S042",
+        "name": "Madhuri Pillai",
+        "email": "madhuri42@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S043",
+        "name": "Abhinav Saxena",
+        "email": "abhinav43@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S044",
+        "name": "Payal Dey",
+        "email": "payal44@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S045",
+        "name": "Samarjeet Roy",
+        "email": "samarjeet45@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S046",
+        "name": "Lavanya Menon",
+        "email": "lavanya46@example.com",
+        "issued_books": [
+            "B038"
+        ]
+    },
+    {
+        "student_id": "S047",
+        "name": "Harsh Vardhan",
+        "email": "harsh47@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S048",
+        "name": "Trisha Lahiri",
+        "email": "trisha48@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S049",
+        "name": "Anirban Ghosal",
+        "email": "anirban49@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S050",
+        "name": "Jhanvi Arora",
+        "email": "jhanvi50@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S051",
+        "name": "Farhan Ali",
+        "email": "farhan51@example.com",
+        "issued_books": []
+    },
+    {
+        "student_id": "S052",
+        "name": "Kush singh",
+        "email": "kushsingh003@example.com",
+        "issued_books": []
+    }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="layout">
+    <aside id="sidebar">
+        <nav>
+            <button class="nav active" onclick="showSection('dashboard', this)">Dashboard</button>
+            <button class="nav" onclick="showSection('books', this)">Books</button>
+            <button class="nav" onclick="showSection('students', this)">Students</button>
+            <button class="nav" onclick="showSection('transactions', this)">Issue / Return</button>
+        </nav>
+    </aside>
+
+    <main>
+        <button class="menu-btn" onclick="toggleSidebar()" aria-label="Toggle navigation">Menu</button>
+        <section id="dashboard" class="section active-section">
+            <div class="dashboard-heading">
+                <h1>Dashboard</h1>
+                <p>Overview of library resources and activities</p>
+            </div>
+
+            <div class="metric-grid">
+                <article class="metric-card metric-books"><div><span>Total Books</span><strong id="dashTotal">0</strong></div></article>
+                <article class="metric-card metric-available"><div><span>Available Books</span><strong id="dashAvailable">0</strong></div></article>
+                <article class="metric-card metric-issued"><div><span>Issued Books</span><strong id="dashIssued">0</strong></div></article>
+                <article class="metric-card metric-students"><div><span>Total Students</span><strong id="dashStudents">0</strong></div></article>
+                <article class="metric-card metric-transactions"><div><span>Total Transactions</span><strong id="dashTransactions">0</strong></div></article>
+            </div>
+
+            <div class="dashboard-grid">
+                <article class="dashboard-panel domain-panel">
+                    <h2>Books by Domain</h2>
+                    <div class="domain-content"><div id="domainDonut" class="donut"><div class="donut-hole"><strong id="donutTotal">0</strong><span>Books</span></div></div><div id="domainLegend" class="domain-legend"></div></div>
+                </article>
+                <article class="dashboard-panel status-panel">
+                    <h2>Book Status</h2>
+                    <div id="statusChart" class="status-chart"></div>
+                </article>
+                <article class="dashboard-panel popular-panel">
+                    <h2>Most Issued Books</h2>
+                    <ol id="popularBooks" class="popular-list"><li class="empty-state">Loading books…</li></ol>
+                </article>
+            </div>
+
+            <article class="dashboard-panel recent-panel">
+                <div class="panel-heading-row"><h2>Recent Transactions</h2><span class="recent-note">Latest activity</span></div>
+                <div class="table-wrap dashboard-table-wrap"><table><thead><tr><th>#</th><th>Book ID</th><th>Book Title</th><th>Student ID</th><th>Student Name</th><th>Issue Date</th><th>Return Date</th><th>Fine</th></tr></thead><tbody id="recentTransactions"><tr><td colspan="8">Loading transactions…</td></tr></tbody></table></div>
+            </article>
+        </section>
+
+        <section id="books" class="section">
+            <div class="section-head"><div><h2>Books</h2><p>Search and manage library books.</p></div><button class="primary" onclick="openModal('bookModal')">+ Add Book</button></div>
+            <div class="filters"><input id="bookSearch" placeholder="Search title or author..." oninput="loadBooks()"><select id="domainFilter" onchange="loadBooks()"><option value="">All Domains</option></select></div>
+            <div class="table-wrap"><table><thead><tr><th>ID</th><th>Title</th><th>Author</th><th>Domain</th><th>Status</th></tr></thead><tbody id="booksTable"></tbody></table></div>
+        </section>
+
+        <section id="students" class="section">
+            <div class="section-head"><div><h2>Students</h2><p>Maintain student/member information.</p></div><button class="primary" onclick="openModal('studentModal')">+ Add Student</button></div>
+            <div class="filters student-filters"><input id="studentSearch" type="search" placeholder="Search by Student ID (e.g. S001)" aria-label="Search students by ID" oninput="loadStudents()"></div><div class="table-wrap"><table><thead><tr><th>ID</th><th>Name</th><th>Email</th><th>Issued Books</th></tr></thead><tbody id="studentsTable"></tbody></table></div>
+        </section>
+
+        <section id="transactions" class="section">
+            <div class="section-head"><div><h2>Issue / Return</h2><p>Manage current book transactions.</p></div></div>
+            <div class="two-col">
+                <div class="panel"><h3>Issue a Book</h3><form id="issueForm"><label>Book</label><select id="issueBookId" required><option value="">Select an available book</option></select><label>Student</label><select id="issueStudentId" required><option value="">Select a student</option></select><button class="primary" type="submit">Issue Book</button></form></div>
+                <div class="panel"><h3>Return a Book</h3><form id="returnForm"><label>Book</label><select id="returnBookId" required><option value="">Select an issued book</option></select><label>Student</label><select id="returnStudentId" required><option value="">Select a student</option></select><button class="primary" type="submit">Return Book</button></form><p class="hint">14 days are allowed. Fine: ₹5 per overdue day.</p></div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<div id="bookModal" class="modal"><div class="modal-box"><button class="close" onclick="closeModal('bookModal')">×</button><h2>Add Book</h2><form id="bookForm"><label>Title</label><input id="bookTitle" required><label>Author</label><input id="bookAuthor" required><label>Domain</label><select id="bookDomain" required></select><button class="primary" type="submit">Save Book</button></form></div></div>
+<div id="studentModal" class="modal"><div class="modal-box"><button class="close" onclick="closeModal('studentModal')">×</button><h2>Add Student</h2><form id="studentForm"><label>Name</label><input id="studentName" required><label>Email</label><input id="studentEmail" type="email" required><button class="primary" type="submit">Save Student</button></form></div></div>
+<div id="toast"></div>
+<script src="/static/script.js"></script>
+</body>
+</html>

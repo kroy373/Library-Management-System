@@ -1,0 +1,911 @@
+[
+    {
+        "book_id": "B001",
+        "title": "Python Programming: An Introduction to Computer Science",
+        "author": "John M. Zelle",
+        "domain": "Computer Science",
+        "is_issued": true,
+        "issued_to": "S029",
+        "issue_count": 1
+    },
+    {
+        "book_id": "B002",
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 1
+    },
+    {
+        "book_id": "B003",
+        "title": "Data Structures and Algorithms in Python",
+        "author": "Michael T. Goodrich",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 2
+    },
+    {
+        "book_id": "B004",
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 1
+    },
+    {
+        "book_id": "B005",
+        "title": "Computer Networks",
+        "author": "Andrew S. Tanenbaum",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 1
+    },
+    {
+        "book_id": "B006",
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz",
+        "domain": "Computer Science",
+        "is_issued": true,
+        "issued_to": "S002",
+        "issue_count": 1
+    },
+    {
+        "book_id": "B007",
+        "title": "Database System Concepts",
+        "author": "Abraham Silberschatz",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B008",
+        "title": "Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B009",
+        "title": "Computer Organization and Design",
+        "author": "David A. Patterson",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B010",
+        "title": "The C++ Programming Language",
+        "author": "Bjarne Stroustrup",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B011",
+        "title": "Information Technology Essentials",
+        "author": "Jeffrey L. Kneen",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B012",
+        "title": "IT Project Management",
+        "author": "Jack T. Marchewka",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B013",
+        "title": "Fundamentals of Information Systems",
+        "author": "Ralph Stair",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B014",
+        "title": "Web Technologies",
+        "author": "Uttam K. Roy",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 1
+    },
+    {
+        "book_id": "B015",
+        "title": "Cloud Computing",
+        "author": "Rajkumar Buyya",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B016",
+        "title": "Cyber Security Fundamentals",
+        "author": "Thomas J. Mowbray",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B017",
+        "title": "Network Security Essentials",
+        "author": "William Stallings",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B018",
+        "title": "Software Engineering",
+        "author": "Ian Sommerville",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B019",
+        "title": "Information Systems Today",
+        "author": "Valacich and Schneider",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 1
+    },
+    {
+        "book_id": "B020",
+        "title": "IT Infrastructure Management",
+        "author": "James R. Barker",
+        "domain": "Information Technology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B021",
+        "title": "College Algebra",
+        "author": "Michael Sullivan",
+        "domain": "Mathematics",
+        "is_issued": true,
+        "issued_to": "S012",
+        "issue_count": 1
+    },
+    {
+        "book_id": "B022",
+        "title": "Calculus",
+        "author": "James Stewart",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B023",
+        "title": "Linear Algebra and Its Applications",
+        "author": "David C. Lay",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B024",
+        "title": "Discrete Mathematics and Its Applications",
+        "author": "Kenneth Rosen",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B025",
+        "title": "Probability and Statistics",
+        "author": "Morris H. DeGroot",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B026",
+        "title": "Numerical Methods",
+        "author": "E. Balagurusamy",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B027",
+        "title": "Differential Equations",
+        "author": "Dennis G. Zill",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B028",
+        "title": "Coordinate Geometry",
+        "author": "S. L. Loney",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B029",
+        "title": "Trigonometry",
+        "author": "S. L. Loney",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B030",
+        "title": "Real Analysis",
+        "author": "S. C. Malik",
+        "domain": "Mathematics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B031",
+        "title": "University Physics",
+        "author": "Young and Freedman",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B032",
+        "title": "Fundamentals of Physics",
+        "author": "Halliday, Resnick and Walker",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B033",
+        "title": "Concepts of Modern Physics",
+        "author": "Arthur Beiser",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B034",
+        "title": "Introduction to Electrodynamics",
+        "author": "David J. Griffiths",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B035",
+        "title": "Classical Mechanics",
+        "author": "John R. Taylor",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B036",
+        "title": "Thermal Physics",
+        "author": "Daniel V. Schroeder",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B037",
+        "title": "Optics",
+        "author": "Ajoy Ghatak",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B038",
+        "title": "Quantum Mechanics",
+        "author": "David J. Griffiths",
+        "domain": "Physics",
+        "is_issued": true,
+        "issued_to": "S046",
+        "issue_count": 1
+    },
+    {
+        "book_id": "B039",
+        "title": "Electromagnetism",
+        "author": "S. P. Puri",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B040",
+        "title": "Solid State Physics",
+        "author": "Kittel",
+        "domain": "Physics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B041",
+        "title": "Chemistry: The Molecular Science",
+        "author": "John W. Moore",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B042",
+        "title": "Physical Chemistry",
+        "author": "Peter Atkins",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B043",
+        "title": "Organic Chemistry",
+        "author": "Paula Yurkanis Bruice",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B044",
+        "title": "Inorganic Chemistry",
+        "author": "Shriver and Atkins",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B045",
+        "title": "Analytical Chemistry",
+        "author": "Gary D. Christian",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B046",
+        "title": "Biochemistry",
+        "author": "Jeremy M. Berg",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B047",
+        "title": "Environmental Chemistry",
+        "author": "Stanley E. Manahan",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B048",
+        "title": "Industrial Chemistry",
+        "author": "B. K. Sharma",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B049",
+        "title": "Polymer Chemistry",
+        "author": "Charles E. Carraher",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B050",
+        "title": "Engineering Chemistry",
+        "author": "Jain and Jain",
+        "domain": "Chemistry",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B051",
+        "title": "Campbell Biology",
+        "author": "Jane B. Reece",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B052",
+        "title": "Molecular Biology of the Cell",
+        "author": "Bruce Alberts",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B053",
+        "title": "Human Physiology",
+        "author": "Lauralee Sherwood",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B054",
+        "title": "Genetics",
+        "author": "Benjamin A. Pierce",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B055",
+        "title": "Microbiology",
+        "author": "Prescott",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B056",
+        "title": "Cell Biology",
+        "author": "Thomas D. Pollard",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B057",
+        "title": "Ecology",
+        "author": "Robert E. Ricklefs",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B058",
+        "title": "Biochemistry",
+        "author": "Reginald Garrett",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B059",
+        "title": "Plant Biology",
+        "author": "James D. Mauseth",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B060",
+        "title": "Human Anatomy",
+        "author": "Elaine N. Marieb",
+        "domain": "Biology",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B061",
+        "title": "Principles of Management",
+        "author": "Robbins and Coulter",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B062",
+        "title": "Marketing Management",
+        "author": "Philip Kotler",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B063",
+        "title": "Financial Management",
+        "author": "I. M. Pandey",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B064",
+        "title": "Human Resource Management",
+        "author": "Gary Dessler",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B065",
+        "title": "Operations Management",
+        "author": "Jay Heizer",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B066",
+        "title": "Organizational Behavior",
+        "author": "Stephen P. Robbins",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B067",
+        "title": "Business Communication",
+        "author": "Meenakshi Raman",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B068",
+        "title": "Entrepreneurship Development",
+        "author": "S. S. Khanka",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B069",
+        "title": "Strategic Management",
+        "author": "Fred R. David",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B070",
+        "title": "Managerial Economics",
+        "author": "Dominick Salvatore",
+        "domain": "Business & Management",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B071",
+        "title": "Principles of Economics",
+        "author": "N. Gregory Mankiw",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B072",
+        "title": "Microeconomics",
+        "author": "Robert Pindyck",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B073",
+        "title": "Macroeconomics",
+        "author": "N. Gregory Mankiw",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B074",
+        "title": "Indian Economy",
+        "author": "Ramesh Singh",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B075",
+        "title": "Econometrics",
+        "author": "Damodar Gujarati",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B076",
+        "title": "Development Economics",
+        "author": "Debraj Ray",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B077",
+        "title": "International Economics",
+        "author": "Paul Krugman",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B078",
+        "title": "Public Finance",
+        "author": "H. L. Bhatia",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B079",
+        "title": "Money and Banking",
+        "author": "M. L. Jhingan",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B080",
+        "title": "Statistics for Economics",
+        "author": "S. P. Gupta",
+        "domain": "Economics",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B081",
+        "title": "Engineering Mechanics",
+        "author": "R. S. Khurmi",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B082",
+        "title": "Engineering Mathematics",
+        "author": "B. S. Grewal",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B083",
+        "title": "Basic Electrical Engineering",
+        "author": "V. K. Mehta",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B084",
+        "title": "Engineering Drawing",
+        "author": "N. D. Bhatt",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B085",
+        "title": "Fluid Mechanics",
+        "author": "R. K. Rajput",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B086",
+        "title": "Strength of Materials",
+        "author": "R. K. Rajput",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B087",
+        "title": "Thermodynamics",
+        "author": "Yunus Cengel",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B088",
+        "title": "Control Systems Engineering",
+        "author": "I. J. Nagrath",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B089",
+        "title": "Signals and Systems",
+        "author": "Alan V. Oppenheim",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B090",
+        "title": "Engineering Materials",
+        "author": "A. K. Bhargava",
+        "domain": "Engineering",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B091",
+        "title": "Introduction to Sociology",
+        "author": "Anthony Giddens",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B092",
+        "title": "Political Science: An Introduction",
+        "author": "R. C. Agarwal",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B093",
+        "title": "Psychology",
+        "author": "David G. Myers",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B094",
+        "title": "Introduction to Philosophy",
+        "author": "John Hospers",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B095",
+        "title": "World History",
+        "author": "William J. Duiker",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B096",
+        "title": "Indian Society",
+        "author": "Ram Ahuja",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B097",
+        "title": "Introduction to Anthropology",
+        "author": "Ember and Ember",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B098",
+        "title": "English Literature",
+        "author": "Jonathan Bate",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B099",
+        "title": "Communication Skills",
+        "author": "Sanjay Kumar",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B100",
+        "title": "Research Methodology",
+        "author": "C. R. Kothari",
+        "domain": "Humanities & Social Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    },
+    {
+        "book_id": "B101",
+        "title": "Designing Data-Intensive Applications",
+        "author": "Martin Kleppmann",
+        "domain": "Computer Science",
+        "is_issued": false,
+        "issued_to": null,
+        "issue_count": 0
+    }
+]
